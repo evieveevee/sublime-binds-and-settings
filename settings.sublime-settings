@@ -1,0 +1,9 @@
+{
+	"color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"show_git_status": false,
+	"theme": "ayu-mirage.sublime-theme"
+}
