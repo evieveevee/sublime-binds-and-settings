@@ -1,0 +1,7 @@
+[
+	// Reindent selected lines.
+	{ "keys": ["ctrl+k", "r"], "command": "reindent", "args": {"single_line": false} },
+
+	// Exit, closing all windows.
+	{ "keys": ["ctrl+alt+w"], "command": "exit" },
+]
