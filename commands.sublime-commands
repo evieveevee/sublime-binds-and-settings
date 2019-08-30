@@ -1,0 +1,12 @@
+[
+	{
+		"caption": "Media URL: To Standard URL",
+		"command": "reg_replace",
+		"args": {"replacements":["media_url_to_normal_url"], "find_only": true}
+	},
+	{
+		"caption": "Media URL: From Standard URL",
+		"command": "reg_replace",
+		"args": {"replacements":["normal_url_to_media_url"], "find_only": true}
+	},
+]

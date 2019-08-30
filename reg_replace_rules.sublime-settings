@@ -1,0 +1,17 @@
+{
+	"replacements":
+	{
+		"media_url_to_normal_url":
+		{
+			"find": "{{media url=\"([^\"]+)\"}}",
+			"name": "media_url_to_normal_url",
+			"replace": "/media/\\1"
+		},
+		"normal_url_to_media_url":
+		{
+			"find": "src=\"/media/([^\"]+)",
+			"name": "media_url_to_normal_url",
+			"replace": "src=\"{{media url=\"$1\"}}\""
+		}
+	}
+}
