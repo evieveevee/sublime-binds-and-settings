@@ -11,7 +11,7 @@
 		{
 			"find": "src=\"/media/([^\"]+)",
 			"name": "media_url_to_normal_url",
-			"replace": "src=\"{{media url=\"$1\"}}\""
+			"replace": "src=\"{{media url=\"\\1\"}}\""
 		}
 	}
 }
