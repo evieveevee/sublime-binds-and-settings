@@ -1,6 +1,9 @@
 {
 	"replacements":
 	{
+		// These replacements are super useful if you're working with a 1.x version of Magento
+		// and just want to spin up local development on HTML files instead of going to the hassle
+		// of setting up an entire Magento instance. Useful for content editors.
 		"media_url_to_normal_url":
 		{
 			"find": "{{media url=\"([^\"]+)\"}}",
