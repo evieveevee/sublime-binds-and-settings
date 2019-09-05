@@ -2,6 +2,9 @@
 	// Reindent selected lines.
 	{ "keys": ["ctrl+k", "r"], "command": "reindent", "args": {"single_line": false} },
 
+	// Open Project Switcher
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+
 	// Exit, closing all windows.
 	{ "keys": ["ctrl+alt+w"], "command": "exit" },
 ]
